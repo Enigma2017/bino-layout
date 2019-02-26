@@ -1,0 +1,74 @@
+.integration{
+	background-color: $light-grey;
+	padding: 140px 0 136px 0;
+}
+
+.integration__title{
+	@extend .pricing__title;
+}
+
+.integration__title_text{
+	@extend .pricing__title_text;
+}
+
+.integration__partners_line{
+	@extend .flex-center;
+	margin-bottom: 26px;
+}
+
+.integration__partner{
+	width: 214px;
+	height: 102px;
+	margin: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.osha{
+	background: url('../img/osha.png') center no-repeat;
+	background-color: $white-color;
+}
+
+.nyc{
+	background: url('../img/nyc.png') center no-repeat;
+	background-color: $white-color;
+}
+
+.nyc-buil{
+	background: url('../img/nyc-big.png') center no-repeat;
+	background-color: $white-color;
+}
+
+.accredited{
+	background: url('../img/accredited.png') center no-repeat;
+	background-color: $white-color;
+}
+
+.era{
+	background: url('../img/era.png') center no-repeat;
+	background-color: $white-color;
+}
+
+.dummy{
+	background: url('../img/dummy-logo.png') center no-repeat;
+	background-color: $white-color;
+}
+
+.logo-type{
+	background: url('../img/logo-t.png') center no-repeat;
+	background-color: $white-color;
+}
+
+.imaginarium{
+	background: url('../img/imaginarium.png') center no-repeat;
+	background-color: $white-color;
+}
+
+.random{
+	background: url('../img/random-brand.png') center no-repeat;
+	background-color: $white-color;
+}
+
+.another{
+	background: url('../img/another-logo.png') center no-repeat;
+	background-color: $white-color;
+}

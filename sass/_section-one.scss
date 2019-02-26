@@ -1,0 +1,70 @@
+$block: block;
+$border: #e5e5e5;
+
+.service__describing{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 95px;
+	margin-bottom: 90px;
+}
+
+.service__block{
+	display: $block;
+	width: 250px;
+}
+
+.service__square{
+	width: 86px;
+	height: 86px;
+	border: 1px solid $border;
+	margin: auto;
+	&:hover{
+	    border: 1px solid $red-color;
+	}
+}
+
+.sleek__img{
+	background: url('../img/sleek.png') center no-repeat;
+}
+
+.clean__img{
+	background: url('../img/clean.png') center no-repeat;
+}
+
+.creative__img{
+	background: url('../img/creative.png') center no-repeat;
+}
+
+.free__img{
+	background: url('../img/free.png') center no-repeat;
+}
+
+.service__title{
+	font-family: $source-font;
+	font-weight: 700;
+	text-align: center;
+	font-size: 18px;
+	text-transform: $text-transform;
+	color: $title-color;
+	letter-spacing: 3px;
+	&:hover{
+		color: $red-color;
+
+	}
+}
+
+.service__line{
+	border-bottom: 1px solid $text-color;
+	width: 43px;
+	margin: auto;
+}
+
+.service__text{
+	font-size: 12px;
+	text-align: center;
+	font-family: $source-font;
+	font-weight: 300;
+	color: $text-color;
+	word-spacing: 3px;
+	padding-top: 6px;
+}

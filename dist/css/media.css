@@ -1,0 +1,585 @@
+@media screen and (max-width: 1199px){
+	.container{
+		width: 918px;
+	}
+
+	.header__top_logo{
+		padding-bottom: 26px;
+		padding-right: 130px;
+	}
+
+	.header__menu_item{
+		padding-left: 28px;
+	}
+
+	.header__titles{
+		padding-top: 245px;
+	}
+
+	.header__title_text{
+		padding: 50px 245px 90px 245px;
+	}
+
+	.header__title_buttons {
+		padding-bottom: 220px;
+	}
+
+	.service__block{
+		width: auto;
+	}
+
+	.service__text{
+		padding: 6px 10px;
+	}
+
+	.history__describing_info{
+		margin-left: 43px;
+	}
+
+	.history__describing_text{
+		padding-bottom: 12px;
+		line-height: 23px;
+		margin-top: -8px;
+	}
+
+	.history__describing_button{
+		margin-top: 35px;
+	}
+
+	.pricing__block_card{
+		margin: 0 10px 30px 10px;
+	}
+
+	.footer__contact_block{
+		width: 300px;
+		height: 472px;
+		padding: 20px 0 0 88px;
+	}
+
+	.footer__contact_info{
+		padding-bottom: 25px;
+	}
+
+	.footer__contact_form{
+		width: 495px;
+		height: 462px;
+		background-color: $white-color;
+		border-radius: 1%;
+		padding: 30px 0 0 20px;
+	}
+
+	input[placeholder], textarea{
+		margin-left: 30px;
+	}
+
+	input, textarea{
+		width: 385px;
+	}
+
+	textarea{
+		padding-bottom: 68px;
+	}
+
+	button.footer__form_button{
+		margin: 35px 0 0 18px;
+	}
+
+	.footer__below_text{
+		padding-left: 300px;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.container{
+		width: 720px;
+	}
+
+	.header{
+		height: 846px;
+	}
+
+	.overlay{
+	    height: 100%;
+	    width: 0;
+	    position: fixed;
+	    z-index: 1;
+	    top: 0;
+	    right: 0;
+	    background-color: rgba(0,0,0, 0.95);
+	    overflow-x: hidden;
+	    transition: 0.5s;
+	}
+
+	.overlay-content{
+	    position: relative;
+	    top: 11%;
+	    width: 100%;
+	    text-align: center;
+	    margin-bottom: 30px;
+	}
+
+	a.overlay{
+	    padding: 8px;
+	    text-decoration: none;
+	    font-size: 26px;
+	    color: #fff;
+	    display: block;
+	    transition: 0.5s;
+	}
+
+	.overlay a:hover, .overlay a:focus{
+	    color: #e74c3c;
+	}
+
+	.overlay .closebtn{
+	    position: absolute;
+	    top: 10px;
+	    right: 25px;
+	    font-size: 40px;
+	}
+
+	.closebtn{
+		text-decoration: none;
+		color: #fff;
+    	display: flex;
+	}
+
+	.media__menu{
+    	display: flex;
+    	justify-content: flex-end;
+		font-family: 'Open Sans', sans-serif;
+		color: #fff;
+		font-size: 27px;
+		cursor: pointer;
+		padding: 50px 20px 0 0;
+		width: 70%;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	.media__menu:hover{
+		color: #e74c3c;
+		transition: all 1s;
+	}
+
+	.header__menu_list{
+		display: block;
+		margin-top: 70px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	.header__top_logo{
+		padding-right: 0;
+		width: 30%;
+	}
+
+	.header__menu_item{
+		padding: 0;
+		margin-bottom: 25px;
+	}
+
+	.header__menu_link:hover {
+	    border-bottom: 1px solid rgba(0,0,0,0);
+	    opacity: 90%; 
+	}
+
+	.header__menu_item a{
+		padding: 0;
+		border: 5px solid rgba(0,0,0,0);
+	}
+
+	h1{
+		font-size: 65px;
+		letter-spacing: 6px;
+		margin-bottom: 23px;
+	}
+
+	.header__titles{
+		padding-top: 195px;
+	}
+
+	.header__title_text{
+		padding: 20px 160px 90px 160px;
+	}
+
+	.header__title_buttons {
+		padding-bottom: 167px;
+	}
+
+	.service__title{
+		font-size: 17px;
+	}
+
+	.service__describing {
+		margin-top: 115px;
+	}
+
+	.history__describing_img{
+		width: 50%;
+	}
+
+	.history__describing_info{
+		width: 50%;
+	}
+
+	.history__img{
+		width: 350px;
+		height: auto;
+	}
+
+	.pricing__block_card{
+		margin: 0 0 40px 0;
+	}
+
+	.integration {
+		background-color: #f4f5f9;
+		padding: 100px 0 130px 0;
+	}
+
+	.pricing__title, .integration__title, .footer__title {
+		font-size: 33px;
+		letter-spacing: 3px;
+	}
+
+	.pricing, .footer {
+		padding-top: 100px;
+	}
+
+	.pricing__blocks {
+	  	margin-bottom: 100px;
+	}
+
+	.footer__contact_block{
+		width: 200px;
+		height: auto;
+		padding: 20px 15px 0 38px;
+	}
+
+	.footer__contact_info{
+		padding-bottom: 25px;
+	}
+
+	.footer__contact_form{
+		width: 415px;
+		height: auto;
+		background-color: $white-color;
+		border-radius: 1%;
+		padding: 30px 20px 0 24px;
+	}
+
+	input[placeholder], textarea{
+		margin-left: 20px;
+	}
+
+	input, textarea{
+		width: 355px;
+	}
+
+	textarea{
+		padding-bottom: 68px;
+	}
+
+	button.footer__form_button{
+		margin: 43px 0 0 10px;
+	}
+
+	.footer__below_text{
+		padding-left: 150px;
+		font-size: 11px;
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.container{
+		width: 540px;
+	}
+
+	.header__title_text{
+		padding: 20px 90px 90px 90px;
+	}
+
+	.header{
+		height: 884px;
+	}
+
+	.header__title_buttons {
+		padding-bottom: 126px;
+	}
+
+	.service__describing {
+		flex-wrap: wrap;
+	}
+
+	.service__block {
+		display: block;
+		width: 240px;
+	}
+
+	.history__describing {
+ 		display: block;
+	}
+
+	.history__describing_img{
+		width: 100%;
+	}
+
+	.history__describing_info{
+		width: 100%;
+		margin: 75px 20px 0 0;
+	}
+
+	.history__img{
+		width: 100%;
+		height: auto;
+	}
+
+	.history__describing_text {
+		font-size: 15px;
+		line-height: 25px;
+		text-align: center;
+	}
+
+	.history__describings{
+		display: flex;
+		justify-content: center;
+	}
+
+	.history__describing_button {
+	    margin-top: 45px;
+	    display: flex;
+	    justify-content: center;
+	}
+
+	.footer__contact_block{
+		width: 150px;
+		height: auto;
+		padding: 20px 15px 20px 24px;
+	}
+
+	.footer__contact_title {
+		font-size: 21px;
+	}
+
+	.footer__contact_info {
+		font-size: 15px;
+		padding-bottom: 25px;
+	}
+
+	.footer__contact_form{
+		width: 300px;
+		height: auto;
+		padding: 14px 20px 0 24px;
+	}
+
+	input, textarea{
+		width: 275px;
+	}
+
+	button.footer__form_button{
+		margin: 33px 0 0 10px;
+	}
+
+	.icons__footer {
+	  	font-size: 16px;
+	 	padding-right: 15px;
+	}
+
+	.footer__below_text{
+		padding-left: 100px;
+		font-size: 10px;
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 575px){
+	.container{
+		width: 90%;
+	}
+
+	h1{
+		font-size: 58px;
+		letter-spacing: 5px;
+	}
+
+	.header{
+		height: 894px;
+	}
+
+	.header__title_text{
+		padding: 20px 40px 70px 40px;
+	}
+
+	.header__title_buttons {
+		display: block;
+	}
+
+	.header__title_links{
+		padding-right: 0;
+		margin-bottom: 55px;
+	}
+
+	.header__anchor_circle{
+		display: none;
+	}
+
+	.footer__form_block{
+		display: block;
+	}
+
+	.footer__contact_block > div{
+		margin: auto;
+		text-align: center;
+	}
+
+	.footer__contact_block{
+		display: flex;
+		width: auto;
+		padding: 15px 10px 16px 10px;
+		margin-bottom: 20px;
+	}
+
+	.footer__contact_info {
+		font-size: 12px;
+		padding-bottom: 10px;
+	}
+
+	.footer__contact_title {
+		font-size: 18px;
+	}
+
+	.footer__email_adress{
+		padding-bottom: 17px;
+	}
+
+	.footer__contact_form{
+		width: auto;
+		height: auto;
+		padding: 34px 20px 40px 24px;
+	}
+
+	input, textarea{
+		width: 90%;
+	}
+
+	.footer__circle_up {
+		padding-right: 20px;
+		margin: -54px 0 15px 0;
+	}
+
+	.footer__link_up {
+	    width: 35px;
+	    height: 35px;
+	}
+
+	.fa-angle-up {
+	    font-size: 16px;
+	    left: 35%;
+	    line-height: 34px;
+	}
+
+	.icons__footer {
+	  	font-size: 15px;
+	 	padding-right: 13px;
+	}
+
+	.footer__below_text{
+		padding-left: 70px;
+	}
+
+	.footer__form_block {
+	  	padding-bottom: 100px;
+	}
+
+	.integration {
+		padding: 100px 0;
+	}
+
+	.service__title{
+		font-size: 20px;
+	}
+
+	.service__text{
+		font-size: 16px;
+	}
+
+	.service__block{
+		margin: auto;
+		padding-bottom: 50px;
+	}
+
+	.service__describing {
+		margin: 90px 0 60px 0;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.dark__grey_top, .dark__red_top {
+		width: 280px;
+	}
+
+	.light__grey_block {
+		width: 280px;
+		height: 405px;
+  	}
+
+	.footer__below_text{
+		padding-left: 30px;
+	}
+
+	.footer__contact_block{
+		display: block;
+		width: auto;
+		padding: 15px 10px 26px 10px;
+		margin-bottom: 20px;
+	}
+
+	.footer__contact_info {
+		font-size: 16px;
+		padding-bottom: 10px;
+	}
+
+	.footer__contact_title {
+		font-size: 20px;
+	}
+
+	.footer__email_adress{
+		padding-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 400px){
+  	.footer__below_text{
+		padding-left: 25px;
+		font-size: 8px;
+	}
+
+	.icons__footer {
+	  	font-size: 15px;
+	 	padding-right: 11px;
+	}
+
+	h1{
+		font-size: 50px;
+		letter-spacing: 4px;
+	}
+
+	.header__title_text{
+		padding: 20px 10px 60px 10px;
+	}
+
+	.pricing__title, .integration__title, .footer__title{
+		font-size: 28px;
+		letter-spacing: 2px;
+	}
+
+	.history__describing_title{
+		padding-left: 12px;
+	}
+
+	.footer__contact_form{
+		padding: 34px 20px 40px 10px;
+	}
+}

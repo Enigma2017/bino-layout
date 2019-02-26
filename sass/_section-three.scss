@@ -1,0 +1,173 @@
+.grey{
+	color: $text-color;
+}
+.red{
+	color: $red-color;
+}
+
+.pricing{
+	padding-top: 150px;
+}
+
+.pricing__title{
+	font-family: $source-font;
+	font-weight: bold;
+	font-size: $size-h2;
+	color: $title-color;
+	text-transform: $text-transform;
+	letter-spacing: 4px;
+	text-align: center;
+}
+
+.pricing__title_text{
+	font-size: 14px;
+	font-family: $sans-font;
+	font-weight: 400;
+	color: $text-color;
+	text-align: center;
+	letter-spacing: 2px;
+	padding: 15px 0 25px 0;
+}
+
+.titles__lines{
+	@extend .flex-center;
+  	margin-bottom: 70px;
+}
+
+.grey__line{
+	border-bottom: 1px solid $title-color;
+	width: 80px;
+	margin-bottom: 7px;
+}
+
+.pricing__blocks{
+	@extend .flex-center;
+	justify-content: center;
+	margin-bottom: 145px;
+}
+
+.pricing__block_card{
+	display: block;
+	margin: 0 5px;
+}
+
+.dark__grey_top{
+	width: 380px;
+	height: 205px;
+	background-color: $text-color;
+}
+
+.pricing__block_title{
+	font-family: $sans-font;
+	color: $white-color;
+	font-weight: 600;
+	font-size: 24px;
+	text-transform: $text-transform;
+	letter-spacing: 4px;
+	text-align: center;
+	padding: 40px 0 42px 0;
+}
+
+.pricing__block_circle{
+	position: relative;
+    width: 155px;
+    height: 155px;
+    border: 12px solid #b0b0b1;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(-45deg);
+    margin: auto;
+}
+
+div.pricing__circle{
+	position: absolute;
+	width: 155px;
+	height: 155px;
+	border-radius: 50%;
+  	background-color: $white-color;
+  	transform: rotate(45deg);
+  	text-align: center;
+}
+
+.pricing__circle_info{
+	font-family: $source-font;
+	font-weight: bold;
+	font-size: 42px;
+	margin: 0;
+	padding-top: 32px;
+}
+
+.pricing__info_small{
+	font-family: $source-font;
+	font-weight: 400;
+	font-size: 15px;
+	margin: 0;
+}
+
+.light__grey_block{
+	width: 380px;
+	height: 405px;
+	background-color: $light-grey;
+}
+
+.light__grey_text{
+	padding-top: 113px;
+	text-align: center;
+	font-family: $sans-font;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 40px;
+	color: $text-color;
+}
+
+.light__block_button{
+	@extend .flex-center;
+	padding-top: 37px;
+}
+
+.card__button{
+	text-decoration: none;
+	color: $white-color;
+	font-family: $sans-font;
+	font-weight: 600;
+	font-size: 12px;
+	text-transform: $text-transform;
+	border-radius: 2%;
+	padding: 16px 28px;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grey__button{
+	background-color: $text-color;
+	&:hover{
+		background-color: $white-color;
+		color: $text-color;
+	}
+}
+
+.dark__red_top{
+	width: 380px;
+	height: 205px;
+	background-color: $red-color;
+}
+
+.red__button{
+	background-color: $red-color;
+	&:hover{
+		background-color: $white-color;
+		color: $red-color;
+	}
+}
+
+.pricing__red_circle{
+	position: relative;
+    width: 155px;
+    height: 155px;
+    border: 12px solid #ea766b;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(-45deg);
+    margin: auto;
+}
